@@ -1,0 +1,31 @@
+h1{
+    color: blue;
+}
+h1:hover{
+    text-align: center;
+    color: green;
+}
+input:focus{
+    background-color: aqua;
+}
+li :nth-child(3){
+    color: burlywood;
+}
+.box{
+    height: 40px;
+    width: 40px;
+    background-color: blue;
+}
+.box :first-child :hover{
+    background-color: brown;
+}
+.box :last-child{
+    background-color: brown;
+}
+a{
+    color: yellow;
+}
+a :visited{
+    color: red;
+    
+}
